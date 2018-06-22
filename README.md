@@ -1,5 +1,5 @@
 # SIV_infectionDynamics
-"A Continuous Susceptible-Infected-Vaccinated Model for Influenza Infection Dynamics."
+"A Susceptible-Infected-Vaccinated Model for Influenza Infection Dynamics."
 
 ## Authors
 

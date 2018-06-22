@@ -87,7 +87,7 @@
 \usepackage{array}
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 
-\title{A Continuous Susceptible-Infected-Vaccinated Model for Influenza Infection Dynamics} 
+\title{A Susceptible-Infected-Vaccinated Model for Influenza Infection Dynamics} 
 
 \author
 {Jonathan Mah$^{1*}$\\
