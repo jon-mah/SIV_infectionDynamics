@@ -1,0 +1,144 @@
+% Use only LaTeX2e, calling the article.cls class and 12-point type.
+
+\documentclass[11pt]{article}
+
+\usepackage[round,semicolon]{natbib}
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\singlespacing\tiny}
+% Use times if you have the font installed; otherwise, comment out the
+% following line.
+
+% added by SKH
+\usepackage{lineno}
+%\linenumbers
+
+\usepackage{times}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\usepackage[export]{adjustbox}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+% for adjustwidth
+\usepackage{changepage}
+
+% The following parameters seem to provide a reasonable page setup.
+
+\topmargin 0.0cm
+\oddsidemargin 1cm
+\textwidth 15cm 
+\textheight 21cm
+\footskip 1.0cm
+
+\usepackage{newfloat}
+\usepackage{amsmath}
+\usepackage[labelfont=bf]{caption}
+\usepackage{nameref}
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{float}
+
+% allow bigger floats per here: https://tex.stackexchange.com/a/11382
+\renewcommand{\topfraction}{.95}
+\renewcommand{\bottomfraction}{.95}
+\renewcommand{\textfraction}{.05}
+\renewcommand{\floatpagefraction}{.95}
+\renewcommand{\dbltopfraction}{.66}
+\renewcommand{\dblfloatpagefraction}{.66}
+\setcounter{topnumber}{9}
+\setcounter{bottomnumber}{9}
+\setcounter{totalnumber}{20}
+\setcounter{dbltopnumber}{9}
+
+\renewcommand{\figurename}{{}}
+\renewcommand{\thefigure}{{Figure~\arabic{figure}}}
+
+\renewcommand{\tablename}{{}}
+\renewcommand{\thetable}{{Table~\arabic{table}}}
+
+\newfloat{suppfile}{thp}{losuppfile}
+\renewcommand{\thesuppfile}{Supplementary~file~\arabic{suppfile}}
+\floatname{suppfile}{}
+
+\newfloat{suppfig}{thp}{losuppfig}
+\renewcommand{\thesuppfig}{Supplementary~figure~\arabic{suppfig}}
+\floatname{suppfig}{}
+
+%
+\newfloat{supptable}{thp}{losupptable}
+\renewcommand{\thesupptable}{Supplementary~table~\arabic{supptable}}
+\floatname{supptable}{}
+%
+
+\renewcommand{\theequation}{Equation~\arabic{equation}}
+
+\newcommand\skhcomment[1]{{\color{cyan}[#1]}}
+\newcommand\jdbcomment[1]{{\color{red}[#1]}}
+
+
+\usepackage{hyperref}
+\hypersetup{colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue}
+\hypersetup{colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue}
+
+\usepackage{seqsplit}
+
+\usepackage{array}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\title{A Continuous Susceptible-Infected-Vaccinated Model for Influenza Infection Dynamics} 
+
+\author
+{Jonathan Mah$^{1*}$\\
+\\
+\footnotesize{$^1$College of Arts \& Sciences, University of Washington}\\
+\footnotesize{Seattle, WA, USA}\\
+\footnotesize{$^*$AMATH 383: Introduction to Continuous Modeling}\\
+}
+
+
+% Include the date command, but leave its argument blank.
+
+\date{}
+
+\usepackage{setspace}
+\onehalfspacing
+
+
+\begin{document} 
+
+% Make the title.
+
+\maketitle 
+
+
+\begin{abstract}
+\noindent  
+A current problem in public health is our inability to reliably forecast the timing and intensity of seasonal Influenza. Current models for  infectious diseases like SIS (susceptible-infected-susceptible) models inadequately account for the seasonal dynamics of Influenza. Additionally, more complex models like the SIR (susceptible-infected-recovered) model incorrectly assume that recovery confers lasting immunity. This work proposes an SIV (susceptible-infected-vaccinated) which takes into account the time-limited nature of immunity conferred via vaccination as well as the seasonal pattern of Influenza outbreaks. 
+\end{abstract}
+
+\clearpage
+
+\section*{Problem Description} 
+
+\section*{Simplifications}
+
+\section*{Mathematical Model}
+
+\section*{Solution of the Mathematical Problem}
+
+\section*{Results and Discussion}
+
+\section*{Improvement}
+
+\section*{Conclusions}
+
+\clearpage 
+\bibliographystyle{mbe}
+{\small
+\bibliography{references.bib}
+}
+
+
+\end{document}
