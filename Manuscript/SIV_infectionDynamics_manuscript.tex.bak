@@ -146,7 +146,7 @@ It stands to reason that a model which takes into account both the time-limited 
 \section*{Simplifications}
 Like the SIV and SIS models, we retain the assumption that population remains constant. Additionally, we make the assumption that ``Susceptible", ``Infected", and ``Vaccinated" groups are disjoint, with the transition between these groups treated as instantaneous. More realistically, the immunity conferred by vaccination is non-instantaneous, and the susceptibility of vaccinated individuals  towards losing their immunity is more aptly described with a time-dependent continuous probability distribution, rather than a population-dependent differential equation.
 
-Furthermore, we make several assumptions about the behavior of Influenza. Currently, two major strains of Influenza circulate throughout Human populations, being H1N1 and H3N2, however, we only take into consideration one strain at a time. Also, due to Influenza's extreme rate and diversity of viral evolution, it has been noted to ``jump" between different species, like the 2009 Swine Flu epidemic. Due to this unique ability of Influenza, so-called ``genetic shifts" result in more extreme outbreaks than typical seasonal behavior. We do not take genetic shift into account, and assume that Influenza will continue to follow current and past seasonal patterns.
+Furthermore, we make several assumptions about the behavior of Influenza. Currently, two major strains of Influenza circulate throughout Human populations, being H1N1 and H3N2, however, we only take into consideration one strain at a time \citep{bedford2015global}. Also, due to Influenza's extreme rate and diversity of viral evolution, it has been noted to ``jump" between different species, like the 2009 Swine Flu epidemic \citep{smith2009origins}. Due to this unique ability of Influenza, so-called ``genetic shifts" result in more extreme outbreaks than typical seasonal behavior. We do not take genetic shift into account, and assume that Influenza will continue to follow current and past seasonal patterns.
 
 \section*{Mathematical Model}
 
@@ -182,6 +182,7 @@ Some observations: \\
 
 \section*{Conclusions}
 
+\textbf{Informal Notes: }Modeling scripts are available 
 \clearpage 
 \bibliographystyle{mbe}
 \bibliography{references.bib}

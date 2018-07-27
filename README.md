@@ -19,16 +19,18 @@ This project contains the following subdirectories:
 
 *  `./Manuscript/` contains the manuscript for the paper as well as documentation for the literature sources consulted.
 
+*  `./Scripts/` contains scripting files for the model as well as examples for other models.
+
 ## Input Data
 
 ## Results and Conclusions
 
 ## To-Do
-*  Finish Abstract
-*  Problem Description
-*  Simplifications
-*  Mathematical Model
-*  Solution of the Mathematical Problem
-*  Results and Discussion
-*  Improvement
-*  Conclusions
+*  Finish Abstract (Rough)
+*  Finish Problem Description (Rough)
+*  Finish Simplifications (Rough)
+*  Finish Mathematical Model (Rough)
+*  Expand upon Solution of the Mathematical Problem (Scratch Notes)
+*  Expand upon Results and Discussion (Scratch Notes)
+*  Expand upon Improvement (Scratch Notes)
+*  Start Conclusions
