@@ -93,7 +93,7 @@
 {Jonathan Mah$^{1*}$\\
 \\
 \footnotesize{$^1$College of Arts \& Sciences, University of Washington}\\
-\footnotesize{Seattle, WA, USA}\\
+\footnotesize{Seattle, WA}\\
 \footnotesize{$^*$AMATH 383: Introduction to Continuous Modeling}\\
 }
 
@@ -115,12 +115,28 @@
 
 \begin{abstract}
 \noindent  
-A current problem in public health is our inability to reliably forecast the timing and intensity of seasonal Influenza. Current models for  infectious diseases like SIS (susceptible-infected-susceptible) models inadequately account for the seasonal dynamics of Influenza. Additionally, more complex models like the SIR (susceptible-infected-recovered) model incorrectly assume that recovery confers lasting immunity. This work proposes an SIV (susceptible-infected-vaccinated) which takes into account the time-limited nature of immunity conferred via vaccination as well as the seasonal pattern of Influenza outbreaks. 
+A current problem in public health is our inability to reliably forecast the timing and intensity of seasonal Influenza. Current models for infectious diseases like SIR (susceptible-infected-vaccinated) models inadequately account for the seasonal dynamics of Influenza and the time-limited effectiveness of vaccination. In this work, we propose an SIV (susceptible-infected-vaccinated) model which takes into account both the seasonal pattern of Influenza outbreaks as well as the time-limited effectiveness of vaccinations. Additionally, we use relevant clinical and epidemiological data to inform the choice of model parameters. Given sufficiently informed parameters, the SIV model may provide insight towards the behavior of influenza outbreaks, however, further work is necessary for accurate prediction of infection dynamics.
 \end{abstract}
 
 \clearpage
 
 \section*{Problem Description} 
+
+The goal of this project is to expand upon existing epidemiological models for infection dynamics. One such model, the SIR model, separates the population into three disjoint sets, being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{R}ecovered". The SIR model is given by the following system of differential equations:
+\begin{equation} \label{SIR}
+\begin{aligned}
+\frac{dS}{dt} &= -\alpha I S \\
+\frac{dI}{dt} &= \alpha I S - \beta I \\
+\frac{dR}{dt} &= \beta I 
+\end{aligned}
+\end{equation}
+where $\alpha$ represents the rate of infection and $\beta$ represents the rate of recovery. This model makes a few key assumptions. One such assumption is that the total population remains constant. Note that the sum of derivatives, $\frac{dS}{dt} + \frac{dI}{dt} + \frac{dR}{dt} = 0$, which implies that the derivative of the sum is also equal to $0$. Thus, the total population does not change. 
+
+Another key assumption is that individuals stay ``Recovered", making this an absorbing state. Given parameters $\alpha = 0.004$ and $\beta = 1$, with initial conditions $S = 999$, $I = 1$, $R = 0$, we find that the SIR model follows the following density distribution, eventually reaching equilibrium.
+\begin{center}
+\includegraphics[scale=0.7]{../Data/sirModel.png}
+\end{center}
+While possibly appropriate for certain diseases like chicken pox, the SIR model fails to take into account the ability of certain viruses to escape the immune response. Additionally, the SIR model is blind to time -- only the current state is taken into consideration. As a result, the SIR model is unsuitable for modeling the infection dynamics of diseases like Influenza, which is well known for being able to escape the human immune response and for having seasonal outbreaks.
 
 \section*{Simplifications}
 

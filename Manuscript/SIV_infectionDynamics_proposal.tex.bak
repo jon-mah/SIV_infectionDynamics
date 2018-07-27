@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+
+
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\setlength{\parindent}{0pt}
+
+\usepackage{setspace}
+\doublespacing
+
+\title{\large{\vspace{-.5in}\textbf{Density Dependent Lotka–Volterra Models}}\vspace{-.15in}}
+\author{\normalsize{Jonathan C. Mah$^{1}$}\\
+\footnotesize{$^1$ College of Arts and Sciences, University of Washington, Seattle, WA}\\
+\date{}}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Header
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+\section{Problem motivation}
+This project will build upon two canonical models that we have discussed in class - the logistic equation for growth of a species with finite carrying capacity and the Lotka-Volterra system for predator-prey dynamics.  The logistic differential equation for population models is given by,
+\begin{equation}
+\dot{N} = rN \left(1 - \frac{N}{K} \right) , \label{logistic_diffeq}
+\end{equation}
+where $N$ the species population, $r$ the growth rate, and $K$ the carrying capacity.  Solutions to equation \ref{logistic_diffeq} have density dependent growth rate and will asymptotically approach the carrying capacity $K$.  The Lotka-Volterra system for modeling predator prey dynamics is given by,
+\begin{equation}
+\begin{aligned}
+\dot{N_1} &= \alpha N_1 - \beta N_1N_2\\
+\dot{N_2} &= \gamma N_1N_2 - \delta N_2 , \label{lotka_volterra}
+\end{aligned}
+\end{equation}
+where $N_1$ and $N_2$ are the population of predator and prey, respectively, and $\alpha$, $\beta$, $\gamma$, and $\delta$ are positive constants.  We observe that for a nonexistent predator population, the Lotka-Volterra model predicts unbounded exponential growth of the prey species.  For our project, we will motivate improved models of the Lotka-Volterra system which include more reasonable growth rates for the prey species.  It seems intuitive that a more accurate model may be obtained by making the prey-species obey a logistic growth law in the absence of any predators.  Doing so yields the following system of equations,
+\begin{equation}
+\begin{aligned}
+\dot{N_1} &= \alpha N_1 \left(1 - \frac{N_1}{K} \right) - \beta N_1N_2 \\
+\dot{N_2} &= \gamma N_1N_2 - \delta N_2
+\end{aligned} \label{logistic_lotka_volterra}
+\end{equation}
+Of particular interest will be the stability of fixed points and structural stability of equation \ref{logistic_lotka_volterra} and a rigorous quantitative analysis of when the system has sustained oscillations.  If time permits we will include structural perturbations to equation \ref{logistic_lotka_volterra} to include factors such as harvesting or more sophisticated interaction terms.
+
+\section{Mathematical methods}
+Initially, we will focus on a basic analysis of the equations including finding and analyzing the stability of equation \ref{logistic_lotka_volterra}.  Finding the fixed points of the equation is trivial, but their stability will be dependent on 5 parameters in the equation; $\alpha$, $\beta$, $\gamma$, $\delta$, and $K$.  We have observed that this may be reduced to 2 parameters by making the change of variables $x = N_1/K$, $y = \delta N_2 / \beta$, and $\tau = t/\delta$ which gives,
+\begin{equation}
+\begin{aligned}
+\dot{x} &= \tilde{\alpha} x \left(1 - x \right) - xy \\
+\dot{y} &= \tilde{\gamma} xy - y ,
+\end{aligned} \label{reduced_system}
+\end{equation}
+
+where $\tilde{\gamma} = \gamma K \delta^{-1}$ and $\tilde{\alpha} = \alpha \delta^{-1}$.  Trivially, we know that in the limit $K \to \infty$, the equation becomes Lotka-Volterra and has a center around both $x$ and $y > 0$.  However, preliminary study of the system given in equation \ref{reduced_system} shows that for $\gamma K < \delta$ or equivalently $\tilde{\gamma} < 1$, there is no fixed point with $y > 0$.  We interpret this as showing that for some parameters, the predator species is driven to extinction.  We are particularly interested in the transition from a model indicating extinction of the predator species to a model with the classic oscillatory behavior observed in Lotka-Volterra.  To study this, we will plot the stability of fixed points of equation \ref{reduced_system} on the $\tilde{\alpha}, \tilde{\gamma}$ plane, look for bifurcation parameters made from linear combinations of $\tilde{\alpha}$ and $\tilde{\gamma}$ and will construct bifurcation diagrams.  This may include further study of bifurcations and 2 dimensional nonlinear systems of equations.  We will use the mathematical analysis to discuss the real world interpretations of the model and it's parameters.
+
+\section{Computational methods}
+
+We will support the analysis in this project with some numerical simulation.  Computational work will include creating plots of the vector field of the density dependent Lotka-Volterra system given in equation \ref{reduced_system}, numerical simulations of the dynamics, and plots of the eigenvalues of the Jacobian at any fixed points in the system as a function of $\tilde{\gamma}$ and $\tilde{\alpha}$.  We do not anticipate any significant challenges in the computational portion of the project.
+
+%%%%%%%%%%%%
+%%% BIBLIOGRAPHY
+%%%%%%%%%%%%
+\nocite{murray2007mathematical, strogatz2018nonlinear, wangersky1978lotka}
+\bibliographystyle{plain}
+\bibliography{example_proposal}
+
+\end{document}
+
+
+
+
+
+
+
+
