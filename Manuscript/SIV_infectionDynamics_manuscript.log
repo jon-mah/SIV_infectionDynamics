@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.5)  27 JUL 2018 08:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.5)  27 JUL 2018 08:23
 entering extended mode
 **./SIV_infectionDynamics_manuscript.tex
 (SIV_infectionDynamics_manuscript.tex
@@ -558,7 +558,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 File: ../Data/sivModel_example.png Graphic file (type png)
 <use ../Data/sivModel_example.png>
 Package pdftex.def Info: ../Data/sivModel_example.png  used on input line 171.
-(pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
+(pdftex.def)             Requested size: 316.18369pt x 237.13776pt.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 175.
 
 
@@ -607,7 +607,7 @@ onts/cm/cmsy8.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on SIV_infectionDynamics_manuscript.pdf (5 pages, 153680 bytes).
+Output written on SIV_infectionDynamics_manuscript.pdf (5 pages, 150822 bytes).
 
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
