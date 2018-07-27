@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.5)  26 JUL 2018 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.5)  26 JUL 2018 22:04
 entering extended mode
 **./SIV_infectionDynamics_manuscript.tex
 (SIV_infectionDynamics_manuscript.tex
@@ -550,32 +550,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
-<../Data/sirModel.png, id=14, 526.96875pt x 395.22656pt>
-File: ../Data/sirModel.png Graphic file (type png)
-<use ../Data/sirModel.png>
-Package pdftex.def Info: ../Data/sirModel.png  used on input line 137.
-(pdftex.def)             Requested size: 368.8756pt x 276.6567pt.
  [2
 
- <../Data/sirModel.png (PNG copy)>] [3]
+]
+[3]
+<../Data/sivModel_example.png, id=32, 526.96875pt x 395.22656pt>
+File: ../Data/sivModel_example.png Graphic file (type png)
+<use ../Data/sivModel_example.png>
+Package pdftex.def Info: ../Data/sivModel_example.png  used on input line 171.
+(pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 175.
+
+
+("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 175.
+[4 <../Data/sivModel_example.png (PNG copy)>] [5]
 No file SIV_infectionDynamics_manuscript.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
 (SIV_infectionDynamics_manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `SIV_infectionDynamics_manuscript.out' has no
 t changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9300 strings out of 493305
- 142262 string characters out of 3129803
- 231618 words of memory out of 3000000
- 12670 multiletter control sequences out of 15000+200000
+ 9321 strings out of 493305
+ 142671 string characters out of 3129803
+ 233621 words of memory out of 3000000
+ 12684 multiletter control sequences out of 15000+200000
  25333 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,9n,92p,874b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,9n,92p,924b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
@@ -589,10 +599,10 @@ ers/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 onts/cm/cmsy8.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/times/utmb8a.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb>
-Output written on SIV_infectionDynamics_manuscript.pdf (3 pages, 126228 bytes).
+Output written on SIV_infectionDynamics_manuscript.pdf (5 pages, 136076 bytes).
 
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

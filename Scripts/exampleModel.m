@@ -3,7 +3,7 @@ close all;
 clc;
 options = odeset('RelTol', 1e-4, 'NonNegative', [1 2 3]);
 figure
-[t, x] = ode45('siv', [0 1825], [100 300 600], options);
+[t, x] = ode45('siv', [0 3650], [100 300 600], options);
 plot(t, x);
 legend('S', 'I', 'V')
 title('SIV model')
