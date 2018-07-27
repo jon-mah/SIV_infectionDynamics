@@ -122,7 +122,7 @@ A current problem in public health is our inability to reliably forecast the tim
 
 \section*{Problem Description} 
 
-The goal of this project is to expand upon existing epidemiological models for infection dynamics. One such model, the SIR model, separates the population into three disjoint sets, being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{R}ecovered". The SIR model is given by the following system of differential equations:
+The goal of this project is to expand upon existing epidemiological models for infection dynamics. One such model, the SIR model, separates the population into three disjoint sets, being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{R}ecovered" \citep{Beretta1995}. The SIR model is given by the following system of differential equations:
 \begin{equation} \label{SIR}
 \begin{aligned}
 \frac{dS}{dt} &= -\alpha I S \\
@@ -132,21 +132,21 @@ The goal of this project is to expand upon existing epidemiological models for i
 \end{equation}
 where $\alpha$ represents the rate of infection and $\beta$ represents the rate of recovery. One key assumption is that the total population remains constant. Note that the sum of derivatives, $\frac{dS}{dt} + \frac{dI}{dt} + \frac{dR}{dt} = 0$, which implies that the derivative of the sum is also equal to $0$. Thus, the total population does not change. 
 
-Another key assumption is that once individuals are ``Recovered", they have lasting immunity to the disease. While appropriate for certain diseases like chicken pox or measles, the SIR model fails to take into account the ability of certain viruses to escape the immune response. An alternative model which addresses the time-limited conferred immunity is the SIS model, where individuals transition between being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{S}usceptible" again. The SIS model is given by the following system of differential equations:
+Another key assumption is that once individuals are ``Recovered", they have lasting immunity to the disease. While appropriate for certain diseases like chicken pox or measles, the SIR model fails to take into account the ability of certain viruses to escape the immune response. An alternative model which addresses the time-limited conferred immunity is the SIS model, where individuals transition between being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{S}usceptible" again \citep{doi:10.1093/bmb/ldp038}. The SIS model is given by the following system of differential equations:
 \begin{equation}
 \begin{aligned}
 \frac{dS}{dt} &= -\alpha S I + \beta I \\
 \frac{dI}{dt} &= \alpha S I - \beta I
 \end{aligned}
 \end{equation}
-Like the SIR model, the SIS model also makes the assumption that population remains constant. However, unlike the SIR model, the SIS model takes into account the ability of individuals to be infected multiple times. Notably, the SIS model is blind to time -- future behavior is entirely determined by the current state of the system. Due to this property, SIS models are unable to capture the seasonal behavior of diseases like Influenza, which is well known to follow ``flu seasons".
+Like the SIR model, the SIS model also makes the assumption that population remains constant. However, unlike the SIR model, the SIS model takes into account the ability of individuals to be infected multiple times. Notably, the standard SIS model is blind to time -- future behavior is entirely determined by the current state of the system \citep{1742-5468-2012-05-P05012}. Due to this property, SIS models are unable to capture the seasonal behavior of diseases like Influenza, which is well known to follow ``flu seasons" \citep{Bedford191676}.
 
 It stands to reason that a model which takes into account both the time-limited immunity conferred by recovery or vaccination, as well as the seasonal behavior of Influenza, may have more predictive power than current SIV and SIS models. Here, we propose the use of an SIV model, and show it's use in modeling infection dynamics for Influenza.
 
 \section*{Simplifications}
 Like the SIV and SIS models, we retain the assumption that population remains constant. Additionally, we make the assumption that ``Susceptible", ``Infected", and ``Vaccinated" groups are disjoint, with the transition between these groups treated as instantaneous. More realistically, the immunity conferred by vaccination is non-instantaneous, and the susceptibility of vaccinated individuals  towards losing their immunity is more aptly described with a time-dependent continuous probability distribution, rather than a population-dependent differential equation.
 
-Furthermore, we make several assumptions about the behavior of Influenza. Currently, two major strains of Influenza circulate throughout Human populations, being H1N1 and H3N2, however, we only take into consideration one strain at a time. Also, due to Influenza's extreme rate and diversity of viral evolution, it has been noted to ``jump" between different species, like the 2009 Swine Flu epidemic. Due to this unique ability of Influenza, so-called ``genetic shifts" result in more extreme outbreaks than typical seasonal behavior. We do not take genetic shift into account, and assume that Influenza will continue to follow current and past seasonal patterns.
+Furthermore, we make several assumptions about the behavior of Influenza. Currently, two major strains of Influenza circulate throughout Human populations, being H1N1 and H3N2, however, we only take into consideration one strain at a time \citep{bedford2015global}. Also, due to Influenza's extreme rate and diversity of viral evolution, it has been noted to ``jump" between different species, like the 2009 Swine Flu epidemic \citep{smith2009origins}. Due to this unique ability of Influenza, so-called ``genetic shifts" result in more extreme outbreaks than typical seasonal behavior. We do not take genetic shift into account, and assume that Influenza will continue to follow current and past seasonal patterns.
 
 \section*{Mathematical Model}
 
@@ -182,11 +182,11 @@ Some observations: \\
 
 \section*{Conclusions}
 
+\textbf{Informal Notes: }Work in progress.
+
 \clearpage 
 \bibliographystyle{mbe}
-{\small
 \bibliography{references.bib}
-}
 
 
 \end{document}

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: SIV_infectionDynamics_manuscript.aux
+The style file: mbe.bst
+Database file #1: references.bib.bib
+You've used 6 entries,
+            2767 wiz_defined-function locations,
+            617 strings with 5808 characters,
+and the built_in function-call counts, 4963 in all, are:
+= -- 459
+> -- 174
+< -- 4
++ -- 114
+- -- 48
+* -- 392
+:= -- 736
+add.period$ -- 30
+call.type$ -- 6
+change.case$ -- 44
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 379
+empty$ -- 390
+format.name$ -- 70
+if$ -- 1010
+int.to.chr$ -- 1
+int.to.str$ -- 3
+missing$ -- 50
+newline$ -- 34
+num.names$ -- 24
+pop$ -- 103
+preamble$ -- 1
+purify$ -- 38
+quote$ -- 0
+skip$ -- 122
+stack$ -- 0
+substring$ -- 433
+swap$ -- 112
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 0
+while$ -- 40
+width$ -- 0
+write$ -- 80

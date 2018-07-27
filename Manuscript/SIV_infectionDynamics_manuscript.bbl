@@ -1,0 +1,40 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bedford and Neher(2017)}]{Bedford191676}
+Bedford T, Neher R. 2017.
+\newblock Seasonal influenza circulation patterns and projections for sep 2017
+  to sep 2018.
+\newblock \emph{bioRxiv}. .
+
+\bibitem[{Bedford et~al.(2015)Bedford, Riley, Barr et~al.}]{bedford2015global}
+Bedford T, Riley S, Barr IG, et~al. (11 co-authors). 2015.
+\newblock Global circulation patterns of seasonal influenza viruses vary with
+  antigenic drift.
+\newblock \emph{Nature}. 523:217.
+
+\bibitem[{Beretta and Takeuchi(1995)}]{Beretta1995}
+Beretta E, Takeuchi Y. 1995.
+\newblock Global stability of an sir epidemic model with time delays.
+\newblock \emph{Journal of Mathematical Biology}. 33:250--260.
+
+\bibitem[{Crokidakis and de~Menezes(2012)}]{1742-5468-2012-05-P05012}
+Crokidakis N, de~Menezes MA. 2012.
+\newblock Critical behavior of the sis epidemic model with time-dependent
+  infection rate.
+\newblock \emph{Journal of Statistical Mechanics: Theory and Experiment}.
+  2012:P05012.
+
+\bibitem[{Keeling and Danon(2009)}]{doi:10.1093/bmb/ldp038}
+Keeling MJ, Danon L. 2009.
+\newblock Mathematical modelling of infectious diseases.
+\newblock \emph{British Medical Bulletin}. 92:33--42.
+
+\bibitem[{Smith et~al.(2009)Smith, Vijaykrishna, Bahl
+  et~al.}]{smith2009origins}
+Smith GJ, Vijaykrishna D, Bahl J, et~al. (11 co-authors). 2009.
+\newblock Origins and evolutionary genomics of the 2009 swine-origin h1n1
+  influenza a epidemic.
+\newblock \emph{Nature}. 459:1122.
+
+\end{thebibliography}

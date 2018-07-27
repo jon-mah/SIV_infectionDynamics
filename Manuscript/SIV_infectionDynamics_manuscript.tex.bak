@@ -122,7 +122,7 @@ A current problem in public health is our inability to reliably forecast the tim
 
 \section*{Problem Description} 
 
-The goal of this project is to expand upon existing epidemiological models for infection dynamics. One such model, the SIR model, separates the population into three disjoint sets, being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{R}ecovered". The SIR model is given by the following system of differential equations:
+The goal of this project is to expand upon existing epidemiological models for infection dynamics. One such model, the SIR model, separates the population into three disjoint sets, being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{R}ecovered" \citep{Beretta1995}. The SIR model is given by the following system of differential equations:
 \begin{equation} \label{SIR}
 \begin{aligned}
 \frac{dS}{dt} &= -\alpha I S \\
@@ -132,14 +132,14 @@ The goal of this project is to expand upon existing epidemiological models for i
 \end{equation}
 where $\alpha$ represents the rate of infection and $\beta$ represents the rate of recovery. One key assumption is that the total population remains constant. Note that the sum of derivatives, $\frac{dS}{dt} + \frac{dI}{dt} + \frac{dR}{dt} = 0$, which implies that the derivative of the sum is also equal to $0$. Thus, the total population does not change. 
 
-Another key assumption is that once individuals are ``Recovered", they have lasting immunity to the disease. While appropriate for certain diseases like chicken pox or measles, the SIR model fails to take into account the ability of certain viruses to escape the immune response. An alternative model which addresses the time-limited conferred immunity is the SIS model, where individuals transition between being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{S}usceptible" again. The SIS model is given by the following system of differential equations:
+Another key assumption is that once individuals are ``Recovered", they have lasting immunity to the disease. While appropriate for certain diseases like chicken pox or measles, the SIR model fails to take into account the ability of certain viruses to escape the immune response. An alternative model which addresses the time-limited conferred immunity is the SIS model, where individuals transition between being ``\textbf{S}usceptible", ``\textbf{I}nfected", and ``\textbf{S}usceptible" again \citep{doi:10.1093/bmb/ldp038}. The SIS model is given by the following system of differential equations:
 \begin{equation}
 \begin{aligned}
 \frac{dS}{dt} &= -\alpha S I + \beta I \\
 \frac{dI}{dt} &= \alpha S I - \beta I
 \end{aligned}
 \end{equation}
-Like the SIR model, the SIS model also makes the assumption that population remains constant. However, unlike the SIR model, the SIS model takes into account the ability of individuals to be infected multiple times. Notably, the SIS model is blind to time -- future behavior is entirely determined by the current state of the system. Due to this property, SIS models are unable to capture the seasonal behavior of diseases like Influenza, which is well known to follow ``flu seasons".
+Like the SIR model, the SIS model also makes the assumption that population remains constant. However, unlike the SIR model, the SIS model takes into account the ability of individuals to be infected multiple times. Notably, the standard SIS model is blind to time -- future behavior is entirely determined by the current state of the system \citep{1742-5468-2012-05-P05012}. Due to this property, SIS models are unable to capture the seasonal behavior of diseases like Influenza, which is well known to follow ``flu seasons" \citep{Bedford191676}.
 
 It stands to reason that a model which takes into account both the time-limited immunity conferred by recovery or vaccination, as well as the seasonal behavior of Influenza, may have more predictive power than current SIV and SIS models. Here, we propose the use of an SIV model, and show it's use in modeling infection dynamics for Influenza.
 
@@ -174,19 +174,17 @@ Building off of the SIV and SIS models, we introduce several new parameters and 
 Some observations: \\
 \textbullet{The system tends towards a periodic equilibrium state.} \\
 \textbullet{The three population subsets all vary with time, and the period is approximately one year.} \\
-\textbullet{When the vaccinated population is high, then susceptible population is also high (due to more people losing immu), and the infected population is low (due to high vaccination)}
+\textbullet{When the vaccinated population is high, the susceptible population is also high (due to more people losing immunity), and the infected population is low (due to high rate of vaccination). This matches general expectations.}
 
 \section*{Improvement}
 
-\textbf{Informal Notes: }I intend to fit the parameters to clinical and epidemiological data. I have access to some data through my lab, but I would prefer to find publicly available data, possibly from the CDC.
+\textbf{Informal Notes: }I intend to fit the parameters to clinical and epidemiological data, possibly with multiple linear regression via R. I have access to data through my lab, but I would prefer to find publicly available data, possibly from the CDC.
 
 \section*{Conclusions}
 
 \clearpage 
 \bibliographystyle{mbe}
-{\small
 \bibliography{references.bib}
-}
 
 
 \end{document}
