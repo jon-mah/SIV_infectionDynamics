@@ -168,7 +168,7 @@ Building off of the SIV and SIS models, we introduce several new parameters and 
 
 \textbf{Informal Notes: }Here is the behavior of the system with initial conditions $S = 100$, $I = 300$, $V = 600$, and parameters: $\alpha = 0.00055$, $\beta = 0.1$, $\gamma = 0.0009$, $\kappa = 0.0005$, $r_1 = -0.6$, $r_2 = 1$, $r_3 =  -0.4$. I came up with these parameters by messing around with different values until I found system behavior that somewhat made sense. The x-axis represents days and the y-axis represents number of individuals.
 \begin{center}
-\includegraphics[scale=0.5]{../Data/sivModel_example.png}
+\includegraphics[scale=0.6]{../Data/sivModel_example.png}
 \end{center}
 
 Some observations: \\
@@ -182,8 +182,10 @@ Some observations: \\
 
 \section*{Conclusions}
 
-\textbf{Informal Notes: }Modeling scripts are available 
-\clearpage 
+\textbf{Informal Notes: }Modeling scripts are available at https://github.com/jon-mah/SIV\_infectionDynamics
+
+\bigskip
+
 \bibliographystyle{mbe}
 \bibliography{references.bib}
 
