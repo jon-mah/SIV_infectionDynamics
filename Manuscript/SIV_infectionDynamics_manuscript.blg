@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: SIV_infectionDynamics_manuscript.aux
 The style file: mbe.bst
 Database file #1: references.bib.bib
-You've used 6 entries,
+You've used 15 entries,
             2767 wiz_defined-function locations,
-            617 strings with 5808 characters,
-and the built_in function-call counts, 4963 in all, are:
-= -- 459
-> -- 174
-< -- 4
-+ -- 114
-- -- 48
-* -- 392
-:= -- 736
-add.period$ -- 30
-call.type$ -- 6
-change.case$ -- 44
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 379
-empty$ -- 390
-format.name$ -- 70
-if$ -- 1010
+            681 strings with 8309 characters,
+and the built_in function-call counts, 15933 in all, are:
+= -- 1470
+> -- 654
+< -- 8
++ -- 467
+- -- 180
+* -- 1281
+:= -- 2228
+add.period$ -- 74
+call.type$ -- 15
+change.case$ -- 133
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 1191
+empty$ -- 1226
+format.name$ -- 225
+if$ -- 3289
 int.to.chr$ -- 1
-int.to.str$ -- 3
-missing$ -- 50
-newline$ -- 34
-num.names$ -- 24
-pop$ -- 103
+int.to.str$ -- 5
+missing$ -- 145
+newline$ -- 79
+num.names$ -- 60
+pop$ -- 383
 preamble$ -- 1
-purify$ -- 38
+purify$ -- 116
 quote$ -- 0
-skip$ -- 122
+skip$ -- 376
 stack$ -- 0
-substring$ -- 433
-swap$ -- 112
-text.length$ -- 0
+substring$ -- 1507
+swap$ -- 330
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 135
 warning$ -- 0
-while$ -- 40
+while$ -- 125
 width$ -- 0
-write$ -- 80
+write$ -- 197

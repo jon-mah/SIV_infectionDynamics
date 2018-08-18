@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Bedford and Neher(2017)}]{Bedford191676}
@@ -18,6 +18,11 @@ Beretta E, Takeuchi Y. 1995.
 \newblock Global stability of an sir epidemic model with time delays.
 \newblock \emph{Journal of Mathematical Biology}. 33:250--260.
 
+\bibitem[{Brauer(2008)}]{brauer2008compartmental}
+Brauer F. 2008.
+\newblock Compartmental models in epidemiology.
+\newblock In: Mathematical epidemiology, Springer, pp. 19--79.
+
 \bibitem[{Crokidakis and de~Menezes(2012)}]{1742-5468-2012-05-P05012}
 Crokidakis N, de~Menezes MA. 2012.
 \newblock Critical behavior of the sis epidemic model with time-dependent
@@ -25,10 +30,63 @@ Crokidakis N, de~Menezes MA. 2012.
 \newblock \emph{Journal of Statistical Mechanics: Theory and Experiment}.
   2012:P05012.
 
+\bibitem[{Flannery et~al.(2017)Flannery, Chung, Thaker
+  et~al.}]{flannery2017interim}
+Flannery B, Chung JR, Thaker SN, et~al. (11 co-authors). 2017.
+\newblock Interim estimates of 2016-17 seasonal influenza vaccine
+  effectiveness-united states, february 2017.
+\newblock \emph{Morbidity and Mortality Weekly Report}. 66:167--171.
+
+\bibitem[{for Disease~Control et~al.(2018)for Disease~Control, Prevention
+  et~al.}]{centers2018weekly}
+for Disease~Control C, Prevention, et~al. (3 co-authors). 2018.
+\newblock Weekly us influenza surveillance report.
+\newblock \emph{As of August}. 17.
+
 \bibitem[{Keeling and Danon(2009)}]{doi:10.1093/bmb/ldp038}
 Keeling MJ, Danon L. 2009.
 \newblock Mathematical modelling of infectious diseases.
 \newblock \emph{British Medical Bulletin}. 92:33--42.
+
+\bibitem[{Krugman et~al.(1959)Krugman, Ward, Giles, Bodansky, and
+  Jacobs}]{krugman1959infectious}
+Krugman S, Ward R, Giles JP, Bodansky O, Jacobs AM. 1959.
+\newblock Infectious hepatitis: detection of virus during the incubation period
+  and in clinically inapparent infection.
+\newblock \emph{New England Journal of Medicine}. 261:729--734.
+
+\bibitem[{Lee et~al.(2018)Lee, Huddleston, Doud, Hooper, Wu, Bedford, and
+  Bloom}]{lee2018deep}
+Lee JM, Huddleston J, Doud MB, Hooper KA, Wu NC, Bedford T, Bloom JD. 2018.
+\newblock Deep mutational scanning of hemagglutinin helps predict evolutionary
+  fates of human h3n2 influenza variants.
+\newblock \emph{bioRxiv}. p. 298364.
+
+\bibitem[{Molinari et~al.(2007)Molinari, Ortega-Sanchez, Messonnier, Thompson,
+  Wortley, Weintraub, and Bridges}]{molinari2007annual}
+Molinari NAM, Ortega-Sanchez IR, Messonnier ML, Thompson WW, Wortley PM,
+  Weintraub E, Bridges CB. 2007.
+\newblock The annual impact of seasonal influenza in the us: measuring disease
+  burden and costs.
+\newblock \emph{Vaccine}. 25:5086--5096.
+
+\bibitem[{Park et~al.(2009)Park, Daly, Lewis, Smith, Wood, and
+  Grenfell}]{park2009quantifying}
+Park AW, Daly JM, Lewis NS, Smith DJ, Wood JL, Grenfell BT. 2009.
+\newblock Quantifying the impact of immune escape on transmission dynamics of
+  influenza.
+\newblock \emph{Science}. 326:726--728.
+
+\bibitem[{Rolfes et~al.(2016)Rolfes, Foppa, Garg, Flannery, Brammer, Singleton,
+  Burns, Jernigan, Reed, and Olsen}]{rolfes2016estimated}
+Rolfes MA, Foppa IM, Garg S, Flannery B, Brammer L, Singleton JA, Burns E,
+  Jernigan D, Reed C, Olsen SJ. 2016.
+\newblock Estimated influenza illnesses, medical visits, hospitalizations, and
+  deaths averted by vaccination in the united states.
+\newblock \emph{Centers for Disease Control and Prevention
+  [Интернет].[обновлено 19 апреля 2017 г.]
+  Доступно по ссылке: https://www. cdc.
+  gov/flu/about/disease/2015-16. htm}. .
 
 \bibitem[{Smith et~al.(2009)Smith, Vijaykrishna, Bahl
   et~al.}]{smith2009origins}
@@ -36,5 +94,11 @@ Smith GJ, Vijaykrishna D, Bahl J, et~al. (11 co-authors). 2009.
 \newblock Origins and evolutionary genomics of the 2009 swine-origin h1n1
   influenza a epidemic.
 \newblock \emph{Nature}. 459:1122.
+
+\bibitem[{Sun(2010)}]{sun2010global}
+Sun R. 2010.
+\newblock Global stability of the endemic equilibrium of multigroup sir models
+  with nonlinear incidence.
+\newblock \emph{Computers \& Mathematics with Applications}. 60:2286--2291.
 
 \end{thebibliography}

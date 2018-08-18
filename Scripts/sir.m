@@ -1,3 +1,5 @@
+% This function creates a SIR model / system of ordinary differential
+% equations.
 function dx = sir(t, x)
     dx = [0; 0; 0];
     alpha = 0.004;

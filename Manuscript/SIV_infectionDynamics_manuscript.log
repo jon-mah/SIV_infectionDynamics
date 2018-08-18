@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.5)  27 JUL 2018 08:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.5)  17 AUG 2018 23:12
 entering extended mode
 **./SIV_infectionDynamics_manuscript.tex
 (SIV_infectionDynamics_manuscript.tex
@@ -6,8 +6,8 @@ LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -221,6 +221,13 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen131
 \@vwid@roff=\dimen132
 ))
+("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read1
+)
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\changepage\changep
 age.sty"
 Package: changepage 2009/10/20 v1.0c check page and change page layout
@@ -307,7 +314,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPtop=\skip48
 \rotFPbot=\skip49
 \rot@float@box=\box31
-\rot@mess@toks=\toks23
+\rot@mess@toks=\toks25
 ) ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
 ty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -321,16 +328,16 @@ Package color Info: Driver file: pdftex.def on input line 147.
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count116
-\float@exts=\toks24
+\float@exts=\toks26
 \float@box=\box32
-\@float@everytoks=\toks25
+\@float@everytoks=\toks27
 \@floatcapt=\box33
 )
-\@float@every@suppfile=\toks26
+\@float@every@suppfile=\toks28
 \c@suppfile=\count117
-\@float@every@suppfig=\toks27
+\@float@every@suppfig=\toks29
 \c@suppfig=\count118
-\@float@every@supptable=\toks28
+\@float@every@supptable=\toks30
 \c@supptable=\count119
 
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.
@@ -445,8 +452,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip50
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 82.
 Package hyperref Info: Option `colorlinks' set `true' on input line 83.
+Package hyperref Info: Option `colorlinks' set `true' on input line 84.
 
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\seqsplit\seqsplit.
 sty"
@@ -457,9 +464,65 @@ Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins,
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen144
 \extrarowheight=\dimen145
-\NC@list=\toks29
+\NC@list=\toks31
 \extratabsurround=\skip51
 \backup@length=\skip52
+)
+\Colsep=\skip53
+
+("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count130
+\mult@box=\box34
+\multicol@leftmargin=\dimen146
+\c@unbalance=\count131
+\c@collectmore=\count132
+\doublecol@number=\count133
+\multicoltolerance=\count134
+\multicolpretolerance=\count135
+\full@width=\dimen147
+\page@free=\dimen148
+\premulticols=\dimen149
+\postmulticols=\dimen150
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box35
+\last@line=\box36
+\maxbalancingoverflow=\dimen151
+\mult@rightbox=\box37
+\mult@grightbox=\box38
+\mult@gfirstbox=\box39
+\mult@firstbox=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\c@columnbadness=\count136
+\c@finalcolumnbadness=\count137
+\last@try=\dimen152
+\multicolovershoot=\dimen153
+\multicolundershoot=\dimen154
+\mult@nat@firstbox=\box58
+\colbreak@box=\box59
+\mc@col@check@num=\count138
+)
+("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count139
 )
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.
 sty"
@@ -467,21 +530,21 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 ) (SIV_infectionDynamics_manuscript.aux)
 \openout1 = `SIV_infectionDynamics_manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
+LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 119.
 
 
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
@@ -490,17 +553,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen146
-\scratchbox=\box34
-\nofMPsegments=\count131
-\nofMParguments=\count132
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen147
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count140
+\scratchdimen=\dimen155
+\scratchbox=\box60
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen156
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks33
 )
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -522,95 +585,271 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 109.
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring ON on input line 119.
+LaTeX Info: Redefining \ref on input line 119.
+LaTeX Info: Redefining \pageref on input line 119.
+LaTeX Info: Redefining \nameref on input line 119.
  (SIV_infectionDynamics_manuscript.out)
 (SIV_infectionDynamics_manuscript.out)
 \@outlinefile=\write3
 \openout3 = `SIV_infectionDynamics_manuscript.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 114.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 114.
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 ("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 [1
 
 {C:/Users/jonat/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
  [2
 
 ]
-[3]
-<../Data/sivModel_example.png, id=51, 526.96875pt x 395.22656pt>
-File: ../Data/sivModel_example.png Graphic file (type png)
-<use ../Data/sivModel_example.png>
-Package pdftex.def Info: ../Data/sivModel_example.png  used on input line 171.
-(pdftex.def)             Requested size: 316.18369pt x 237.13776pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 175.
+[3] [4] [5]
+<SIV_flowchart.PNG, id=124, 502.87875pt x 245.718pt>
+File: SIV_flowchart.PNG Graphic file (type png)
+<use SIV_flowchart.PNG>
+Package pdftex.def Info: SIV_flowchart.PNG  used on input line 190.
+(pdftex.def)             Requested size: 426.79134pt x 208.53883pt.
 
 
-("C:\Users\jonat\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 175.
-[4 <../Data/sivModel_example.png (PNG copy)>]
-Overfull \hbox (18.80215pt too wide) in paragraph at lines 185--186
-\OT1/ptm/b/n/10.95 Informal Notes: \OT1/ptm/m/n/10.95 Mod-el-ing scripts are av
-ail-able at https://github.com/jon-mah/SIV[]infectionDynamics 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 191.
+See the caption package documentation for explanation.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 207.
+[6 <./SIV_flowchart.PNG>] [7]
+<example_nonForced_siv_DFE.png, id=144, 526.96875pt x 395.22656pt>
+File: example_nonForced_siv_DFE.png Graphic file (type png)
+<use example_nonForced_siv_DFE.png>
+Package pdftex.def Info: example_nonForced_siv_DFE.png  used on input line 263.
+
+(pdftex.def)             Requested size: 426.79134pt x 320.10764pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 264.
+See the caption package documentation for explanation.
+
+[8]
+Overfull \hbox (60.6233pt too wide) detected at line 303
+[][]
  []
 
-(SIV_infectionDynamics_manuscript.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+[9 <./example_nonForced_siv_DFE.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
 
-(SIV_infectionDynamics_manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
-Package rerunfilecheck Info: File `SIV_infectionDynamics_manuscript.out' has no
-t changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ []
+
+
+Overfull \hbox (38.66344pt too wide) detected at line 309
+[][]
+ []
+
+[10] [11]
+<example_nonForced_siv_end.png, id=165, 526.96875pt x 395.22656pt>
+File: example_nonForced_siv_end.png Graphic file (type png)
+<use example_nonForced_siv_end.png>
+Package pdftex.def Info: example_nonForced_siv_end.png  used on input line 365.
+
+(pdftex.def)             Requested size: 426.79134pt x 320.10764pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 366.
+See the caption package documentation for explanation.
+
+<example_forced_siv_end.png, id=168, 526.96875pt x 395.22656pt>
+File: example_forced_siv_end.png Graphic file (type png)
+<use example_forced_siv_end.png>
+Package pdftex.def Info: example_forced_siv_end.png  used on input line 377.
+(pdftex.def)             Requested size: 426.79134pt x 320.10764pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 378.
+See the caption package documentation for explanation.
+
+[12 <./example_nonForced_siv_end.png (PNG copy)>] [13 <./example_forced_siv_end
+.png (PNG copy)>]
+Overfull \hbox (33.15114pt too wide) in paragraph at lines 391--392
+\OT1/ptm/m/n/12 ent sets of ini-tial con-di-tions, be-ing $\OT1/cmr/m/n/12 (800
+0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1000
+)$\OT1/ptm/m/n/12 , ($\OT1/cmr/m/n/12 1000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 20
+00\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 7000$\OT1/ptm/m/n/12 ), and ($\OT1/cmr/m/n
+/12 5500\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 500\OML/cmm/m/it/12 ; \OT1/cmr/m/n/1
+2 4000$\OT1/ptm/m/n/12 ). 
+ []
+
+<informed_siv.png, id=187, 526.96875pt x 395.22656pt>
+File: informed_siv.png Graphic file (type png)
+<use informed_siv.png>
+Package pdftex.def Info: informed_siv.png  used on input line 395.
+(pdftex.def)             Requested size: 426.79134pt x 320.10764pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 396.
+See the caption package documentation for explanation.
+
+[14 <./informed_siv.png (PNG copy)>]
+<cdc_influenzaData.png, id=196, 602.25pt x 432.11438pt>
+File: cdc_influenzaData.png Graphic file (type png)
+<use cdc_influenzaData.png>
+Package pdftex.def Info: cdc_influenzaData.png  used on input line 405.
+(pdftex.def)             Requested size: 426.79134pt x 306.2363pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 406.
+See the caption package documentation for explanation.
+
+[15 <./cdc_influenzaData.png>] [16] (SIV_infectionDynamics_manuscript.bbl
+[17]
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ò in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no Ω in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Ç in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no µ in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Ä in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no Ω in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no µ in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Ç in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no æ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ± in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no Ω in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no æ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ≤ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ª in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no µ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no Ω in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no æ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ∞ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ø in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Ä in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no µ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ª in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no è in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ≥ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no î in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no æ in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Å in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Ç in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no É in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ø in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no Ω in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no æ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ø in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no æ in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Å in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no Å in font ptmri7t!
+Missing character: There is no — in font ptmri7t!
+Missing character: There is no ã in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ª in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no ∫ in font ptmri7t!
+Missing character: There is no – in font ptmri7t!
+Missing character: There is no µ in font ptmri7t!
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
+ (SIV_infectionDynamics_manuscript.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
+
+
+Package rerunfilecheck Warning: File `SIV_infectionDynamics_manuscript.out' has
+ changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SIV_infectionDynamics_manuscript.ou
+t':
+(rerunfilecheck)             Before: 1343F345A9664DFD238AF45327D38B05;581
+(rerunfilecheck)             After:  FB8919A04B28B22CE39637C405FA0469;591.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 9352 strings out of 493305
- 143452 string characters out of 3129803
- 233899 words of memory out of 3000000
- 12704 multiletter control sequences out of 15000+200000
- 27017 words of font info for 66 fonts, out of 3000000 for 9000
+ 9779 strings out of 493305
+ 149765 string characters out of 3129803
+ 343782 words of memory out of 3000000
+ 13088 multiletter control sequences out of 15000+200000
+ 31319 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,9n,92p,924b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonat/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jonat/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jonat/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
-ers/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/urw/times/utmb8a.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on SIV_infectionDynamics_manuscript.pdf (5 pages, 150822 bytes).
+ 53i,12n,92p,1561b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
 
+{C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
+C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jonat/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jonat/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonat/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Us
+ers/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Users/jonat/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/jonat/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jonat/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/jonat/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/jonat/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SIV_infectionDynamics_manuscript.pdf (18 pages, 381085 bytes)
+.
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
